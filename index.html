@@ -11,6 +11,7 @@
     <noscript>
       <meta http-equiv="refresh" content="0; url=/images/">
     </noscript>
+
     <div id="currentVersions">
     </div>
     <div id="wizard">
@@ -27,12 +28,12 @@
               Poweruser finden die Frankfurter Freifunk-Firmware weiterhin hier: <a href="https://dl.ffm.freifunk.net/firmware/" https://dl.ffm.freifunk.net/firmware/" target="_blank">https://dl.ffm.freifunk.net/firmware</a>
             </p>
         </div>
-        <div id="model-pane" class="pane" style="display: block;">
+        <div id="model-pane" class="pane">
           <span class="firmwareTableLink">[Tabellarische &Uuml;bersicht aller unterst&uuml;tzten Router]</span>
           <h1>Schritt 1: Auswahl des Routermodells</h1>
           <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
              Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
-          <div class="manualSelection" style="display: none;">
+          <div class="manualSelection initiallyhidden">
             <span>Router-Auswahl:</span><br>
             <select id="vendorselect"></select>
             <select id="modelselect"></select>
@@ -45,7 +46,7 @@
         </div>
       </div>
       <div class="pane-wrapper">
-        <div id="type-pane" class="pane" style="display: none;">
+        <div id="type-pane" class="pane initiallyhidden">
           <h1>Schritt 2: Auswahl der Installationsart</h1>
           <p>
             Je nach dem Ist-Zustand des Routers muß entschieden werden, welche Art des  sogenannte "Firmware-Image" auf den Router zu installieren ist.<br>
@@ -56,7 +57,7 @@
         </div>
       </div>
       <div class="pane-wrapper">
-        <div id="branch-pane" class="pane" style="display: none;">
+        <div id="branch-pane" class="pane initiallyhidden">
           <h1>Schritt 3: Download des Firmware-Images</h1>
           <p>Die Frankfurter Freifunk-Firmware gibt es in verschiedenen Stabilitäts-Varianten:</p>
           <ul>
@@ -92,8 +93,8 @@
       </div>
     </div>
 
-    <div id="firmwareTable" class="container" style="display: none;">
-      <span class="firmwareTableLink">Zurück zum Auswahlmenü</span>
+    <div id="firmwareTable" class="container initiallyhidden">
+      <span class="firmwareTableLink">zurück zum Auswahlmenü</span>
       <br>
       <span class="firmwareTableLink">
         <a id="firmware-source-dir" href="..">Liste aller Stable-Factory-Images</a></span>
