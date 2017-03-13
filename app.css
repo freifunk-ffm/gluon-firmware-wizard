@@ -50,10 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.initiallyhidden {
-  display: none;
-}
-
 .table {
   width: 100%;
   max-width: 100%;
@@ -159,10 +155,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #wizard #branch-pane h1 {
-  color: #009ee0;
-}
-
-#wizard #branch-pane sup {
   color: #009ee0;
 }
 
