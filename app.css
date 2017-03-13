@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -121,6 +120,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
 }
 
+#wizard #head-pane {
+  border-left: 3px;
+;
+}
+#wizard #head-pane h1 {
+  color: #000000;
+}
+
 #wizard #model-pane {
   border-left: 3px solid #dc0067;
 }
@@ -131,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #wizard #model-pane input {
   display: block;
-  width: 100%;
+  width: 50%;
 }
 
 #wizard #type-pane {

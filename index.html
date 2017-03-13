@@ -4,93 +4,101 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Firmware</title>
+    <title>Firmware-Selektor</title>
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
     <noscript>
       <meta http-equiv="refresh" content="0; url=/images/">
     </noscript>
-
     <div id="currentVersions">
     </div>
     <div id="wizard">
-      <img src="./router.png" >
+    <br>
+    <p align="center">
+    <img src="https://ffm.freifunk.net/wp-content/uploads/2017/03/logo-ffm-mini.png" width="150">
+    </p>
       <div class="pane-wrapper">
+        <div id="head-pane" class="pane" style="display: block;">
+            <h1>Download Frankfurter Freifunk-Firmware</h1>
+            <p>Erst mit der richtigen Firmware wird ein Router zu einem Teil des
+              Frankfurter Freifunk-Netzes. Viele handelsübliche Router können schon heute in das Netz eingebunden werden.<br>
+              Die hier zum Download angebotene Freifunk-Firmware ist bereits so vorkonfiguriert, dass Router sofort eine Verbindung zu benachbarten Freifunk-Knoten aufbauen (meshen).<br><br>
+              Poweruser finden die Frankfurter Freifunk-Firmware weiterhin hier: <a href="https://dl.ffm.freifunk.net/firmware/" https://dl.ffm.freifunk.net/firmware/" target="_blank">https://dl.ffm.freifunk.net/firmware</a>
+            </p>
+        </div>
         <div id="model-pane" class="pane" style="display: block;">
-          <span class="firmwareTableLink">Tabelle anzeigen</span>
-          <h1>Schritt 1: Wähle Dein Routermodell</h1>
-          <p>Erst mit der Freifunk-Firmware wird dein Router zu einem Teil des
-             Freifunk-Netzes. Sie ist fertig vorkonfiguriert, um Kontakt mit
-             benachbarten Freifunk-Knoten aufzunehmen, ein offenes und ohne
-             Registrierung zugängliches Freifunk-WLAN auszusenden und dich dabei
-             vor der Störerhaftung zu schützen.</p>
-          <input type="text" class="modelSearch" autofocus
-                 placeholder="Hier Hersteller oder Modell eingeben...">
+          <span class="firmwareTableLink">[Tabellarische &Uuml;bersicht aller unterst&uuml;tzten Router]</span>
+          <h1>Schritt 1: Auswahl des Routermodells</h1>
+          <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
+             Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
           <div class="manualSelection" style="display: none;">
-            <span>manuelle Auswahl:</span>
+            <span>Router-Auswahl:</span><br>
             <select id="vendorselect"></select>
             <select id="modelselect"></select>
             <select id="revisionselect"></select>
           </div>
+          <br>
+          <input type="text" class="modelSearch" autofocus
+                 placeholder="Oder ganz einfach hier das Modell und die Hardwarerevision eingeben">
           <div class="imagePreview"></div>
         </div>
       </div>
       <div class="pane-wrapper">
         <div id="type-pane" class="pane" style="display: none;">
-          <h1>Schritt 2: Wähle Deine Installationsart</h1>
+          <h1>Schritt 2: Auswahl der Installationsart</h1>
           <p>
-            Bitte verwende das <em>Erstinstallationsimage</em>, wenn Du deinen
-            Router gerade erst gekauft hast und sich darauf noch keine
-            Freifunk-/OpenWRT-Firmware befindet. Ist bereits eine Freifunk- oder
-            OpenWRT-Firmware installiert, verwende bitte die mit
-            <em>Upgrade</em> bezeichnete Version.
+            Je nach dem Ist-Zustand des Routers muß entschieden werden, welche Art des  sogenannte "Firmware-Image" auf den Router zu installieren ist.<br>
+            <em>'Erstinstallation'</em> ist auszuwählen, wenn der Router neu ist und sich darauf noch keine Freifunk- oder OpenWrt-Firmware befindet.<br>
+	    <em>'Upgrade'</em> ist auszuwählen, wenn bereits eine beliebige Freifunk- oder OpenWrt-Firmware auf dem Router installiert ist.
           </p>
           <radiogroup id="typeselect" class="radiogroup"></radiogroup>
         </div>
       </div>
       <div class="pane-wrapper">
         <div id="branch-pane" class="pane" style="display: none;">
-          <h1>Schritt 3: Wähle Deinen Update-Kanal</h1>
-          <p>Diese Freifunk-Firmware bieten wir in verschiedenen Versionen an:</p>
+          <h1>Schritt 3: Download des Firmware-Images</h1>
+          <p>Die Frankfurter Freifunk-Firmware gibt es in verschiedenen Stabilitäts-Varianten:</p>
           <ul>
             <li>
-              <strong>Stable <sup><span style="color: #009ee0">Empfehlung</span></sup></strong><br />
-              Gut getestet, zuverl&auml;ssig und stabil.<br />
+              <strong>Stable </strong>
+              <span style="color: #01DF3A"> (<strong>Empfehlung!</strong> Gut getestet, zuverl&auml;ssig und stabil)</span><br />
             </li>
             <li>
-              <strong>Beta</strong><br />
-              Vorabtests neuer Stable-Kandidaten.<br />
+              <strong>Testing</strong>
+              <span style="color: #DBA901">(Vorabtest neuer Stable-Kandidaten, evtl. leicht instabil)</span><br />
             </li>
             <li>
-              <strong>Experimental</strong><br />
-              Ungetestet, automatisch generiert.<br />
+              <strong>Development</strong>
+              <span style="color: #DF0101">(<strong>Ungetestet!</strong> Extermst instabil und ohne Funktionsgarantie!)</span><br />
             </li>
           </ul>
-          <p>Die Auswahl der passenden Version entscheidet &uuml;ber die
-             Stablit&auml;t des Routers und den potentiell anfallenden
+          <p>Die Variante entscheidet &uuml;ber die
+             Stablit&auml;t des Freifunk-Routers und &uuml;ber den potentiell anfallenden
              Wartungsaufwand.</p>
-          <p>Für das gewählte Routermodell sind folgende Versionen vorhanden:</p>
+          <p>Für das ausgewählte Routermodell stehen folgende Varianten zum Download bereit:</p>
           <div class="warning-experimental">
-            <b>Vorsicht!</b> Unsere experimentelle Firmware wurde <b>nicht</b>
-            getestet und kann dein Gerät jederzeit und unangekündigt in einen
-            Zustand versetzen, in dem du nur mit einem Lötkolben und dem Öffnen
-            des Gehäuses weiter kommst. Verwende diese Version nur, wenn Du Dir
-            darüber im Klaren bist!
+            <b>Vorsicht!</b><br> Die Development-Variante wurde <b>nicht</b>
+            getestet und kann einen Router jederzeit und unangekündigt in einen
+            undefinierten Zustand versetzen.<br>
+            Dann hilft machmal nur noch das Öffnen des Gehäuses und ein Lötkolben!<br>
+            Diese Variante sollte daher nur von Firmware-Entwicklern verwendet werden!
             <div id="branch-experimental-dl"></div>
           </div>
           <div id="branchselect"></div>
+	  <p><b>Wie die Freifunk-Firmware dann auf den Router übertragen wird, ist hier beschrieben:<br>
+	        "<a href="https://ffm.freifunk.net/mitmachen/" target="_blank">In nur vier Schritten zum eigenen Freifunkrouter</a>"</b></p>
         </div>
       </div>
     </div>
 
     <div id="firmwareTable" class="container" style="display: none;">
-      <span class="firmwareTableLink">zurück zum Auswahlmenü</span>
+      <span class="firmwareTableLink">Zurück zum Auswahlmenü</span>
       <br>
       <span class="firmwareTableLink">
-        <a id="firmware-source-dir" href="..">Liste aller Dateien</a></span>
+        <a id="firmware-source-dir" href="..">Liste aller Stable-Factory-Images</a></span>
       <a name="firmwareTable"></a>
-      <h1>Firmware</h1>
+      <h1>Frankfurter Freifunk-Firmware</h1>
       <table class="table table-striped">
         <thead>
           <tr>

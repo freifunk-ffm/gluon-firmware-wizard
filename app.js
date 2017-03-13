@@ -1,3 +1,4 @@
+
 /*
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -797,7 +798,7 @@ var firmwarewizard = function() {
 
       for (var i in revisions) {
         var rev = revisions[i];
-        if (rev.branch == 'experimental') {
+        if (rev.branch == 'Dev') {
           var button = document.createElement('button');
           button.className = 'btn dl-expermental';
           button.addEventListener('click', toggleExperimentalWarning);
