@@ -34,5 +34,6 @@ var config = {
     'https://dl.ffm.freifunk.net/firmware/test/sysupgrade/': 'Test',
     'https://dl.ffm.freifunk.net/firmware/dev/factory/': 'Dev',
     'https://dl.ffm.freifunk.net/firmware/dev/sysupgrade/': 'Dev'
-    }
+  },
+  preview_pictures: 'pictures/'
 };
