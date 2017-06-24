@@ -400,6 +400,7 @@ var firmwarewizard = function() {
 
     // vendor and model specific fine tuning
     preview = preview.replace('alfa-network', 'alfa');
+    preview = preview.replace('alfa-tube2h', 'alfa-network-tube2h');
     preview = preview.replace('buffalo-wzr-hp-ag300h', 'buffalo-wzr-hp-ag300h-wzr-600dhp');
     preview = preview.replace('buffalo-wzr-600dhp', 'buffalo-wzr-hp-ag300h-wzr-600dhp');
     preview = preview.replace('buffalo-wzr-hp-g300nh2', 'buffalo-wzr-hp-g300nh');
