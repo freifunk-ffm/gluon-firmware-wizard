@@ -548,6 +548,12 @@ var firmwarewizard = function() {
         modelList.push([searchingstring, searchingstring, vendors[i], models[j], '']);
       }
     }
+
+    // Sort the reulting list alphabetically
+    modelList = modelList.sort(function(a, b) {
+      return a[0] > b[1] ? 1 : -1;
+    });
+
     return modelList;
   }
 
