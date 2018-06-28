@@ -19,8 +19,6 @@ var config = {
   listMissingImages: false,
   // see devices.js for different vendor model maps
   vendormodels: vendormodels,
-  // set enabled categories of devices (see devices.js)
-  enabled_device_categories: ["recommended","4_32","8_32","16_32"],
   // community prefix of the firmware images
   community_prefix: 'gluon-ffffm-',
   // firmware version regex
