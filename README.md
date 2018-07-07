@@ -1,18 +1,17 @@
-OpenWrt/LEDE Firmware Wizard
----
+Gluon Firmware-Selector
 
-Dieses Projekt ist ein Fork vom [Darmstädter OpenWrt/LEDE Firmware Selector](https://github.com/freifunk-darmstadt/gluon-firmware-selector).
+Mit dem Firmware-Selector kann ein Routerbetreiber die richtige Freifunk-Firmware für seinen Freifunk-Router auswählen und zur Installation runterladen.
 
-Auf Grund unserer Lokalisierungen driftet das Projekt ganz leicht von dem Darmstädter Repo weg.
-
-Der Frankfurter Firmware Selector ist hier zu finden: https://ffm.freifunk.net/firmware
-
---- 
-
-This Firmware Wizard lets a user select the correct firmware for his device. Directory listings are used to parse the list of available images.
+Die Funktionsweise des Frankfurter Firmware-Selectors kann online hier eingesehen werden: https://ffm.freifunk.net/firmware
 
 ### Screenshot
 ![screenshot of the firmware wizard](screenshot.png)
+
+---
+
+Dieses Projekt ist ein lokalisierter Git-Fork vom [Darmstädter Firmware Selector](https://github.com/freifunk-darmstadt/gluon-firmware-selector).
+
+--- 
 
 
 ### License
