@@ -209,10 +209,10 @@ var firmwarewizard = function() {
 
     $('#ratingselect').addEventListener('change', function(e) {
       if ($('#ratingselect').value == 'good') {
-        self.location.href='https://ffm.freifunk.net/firmware/development/index.html'
+        self.location.href='https://ffm.freifunk.net/firmware/index.html'
       }
       else {
-        self.location.href='https://ffm.freifunk.net/firmware/development/index_lm.html'
+        self.location.href='https://ffm.freifunk.net/firmware/index_lm.html'
       }
     });
 
