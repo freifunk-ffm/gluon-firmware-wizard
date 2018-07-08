@@ -207,6 +207,15 @@ var firmwarewizard = function() {
       firmwarewizard.updateSearchQuery($('.modelSearch').value);
     });
 
+    $('#ratingselect').addEventListener('change', function(e) {
+      if ($('#ratingselect').value == 'good') {
+        self.location.href='https://ffm.freifunk.net/firmware/development/index.html'
+      }
+      else {
+        self.location.href='https://ffm.freifunk.net/firmware/development/index_lm.html'
+      }
+    });
+
     $('#vendorselect').addEventListener('change', function(e) {
       firmwarewizard.setSearchQuery($('#vendorselect').value);
       // scrollDown();
@@ -361,9 +370,17 @@ var firmwarewizard = function() {
       return;
     }
 
-    if (enabled_device_categories.indexOf(device.category) == -1) {
-      // the category is not in the list of enabled categories
-      return;
+    if ($('#ratingselect').value == 'good') {
+      if (enabled_device_categories.indexOf(device.category) == -1) {
+        // the category is not in the list of requested categories
+        return;
+      }
+    }
+    else {
+      if (enabled_device_categories.indexOf(device.category) != -1) {
+        // the category is not in the list of requested categories
+        return;
+      }
     }
 
     var strippedFilename = filename;
