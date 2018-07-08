@@ -677,16 +677,18 @@ var firmwarewizard = function() {
       setClass(previews[p], 'selected', false);
     }
 
-    for (var f in modelList) {
-      var searchstring = modelList[f][MODEL_SEARCHSTRING];
-      var vendor = modelList[f][MODEL_VENDOR];
-      var model = modelList[f][MODEL_MODEL];
+    if (modelList.length == 1) {     
+      for (var f in modelList) {
+        var searchstring = modelList[f][MODEL_SEARCHSTRING];
+        var vendor = modelList[f][MODEL_VENDOR];
+        var model = modelList[f][MODEL_MODEL];
 
-      for(p = 0; p < previews.length; p++) {
-        if (previews[p].getAttribute('data-searchstring') == searchstring) {
-          previews[p].style.display = 'inline-block';
-          if (modelList.length == 1) {
-            setClass(previews[p], 'selected', true);
+        for(p = 0; p < previews.length; p++) {
+          if (previews[p].getAttribute('data-searchstring') == searchstring) {
+            previews[p].style.display = 'inline-block';
+            if (modelList.length == 1) {
+              setClass(previews[p], 'selected', true);
+            }
           }
         }
       }
@@ -712,7 +714,7 @@ var firmwarewizard = function() {
 
       select.innerHTML = '';
       select.appendChild(
-        createOption('', '-- Bitte Hersteller wählen --')
+        createOption('', '-- Bitte einen Hersteller wählen --')
       );
 
       var vendors = Object.keys(images).sort();
@@ -732,7 +734,7 @@ var firmwarewizard = function() {
       select.innerHTML = '';
       select.appendChild(createOption(
         atomic(currentVendor),
-        '-- Bitte Modell wählen --',
+        '-- Bitte ein Modell wählen --',
         atomic(currentVendor))
       );
 
@@ -759,7 +761,7 @@ var firmwarewizard = function() {
       select.innerHTML = '';
       select.appendChild(createOption(
         atomic(currentVendor) + ' ' + atomic(currentModel),
-        '-- Bitte Hardwarerevision wählen --',
+        '-- Bitte eine Hardwarerevision wählen --',
         atomic(currentVendor) + ' ' + atomic(currentModel))
       );
 
