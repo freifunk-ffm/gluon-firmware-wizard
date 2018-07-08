@@ -218,7 +218,7 @@ var firmwarewizard = function() {
 
     $('#vendorselect').addEventListener('change', function(e) {
       firmwarewizard.setSearchQuery($('#vendorselect').value);
-      // scrollDown();
+      scrollDown();
     });
 
     $('#modelselect').addEventListener('change', function(e) {
