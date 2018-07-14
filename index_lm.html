@@ -30,23 +30,24 @@
         </div>
         <div id="model-pane" class="pane">
           <span class="firmwareTableLink">[Tabellarische &Uuml;bersicht aller unterst&uuml;tzten Router]</span>
-          <h1>Schritt 1: Auswahl des Routermodells</h1>
+          <h1>Auswahl des Routermodells</h1>
           <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
              Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
               <p><b><font color="#dc0067">
-               Router ohne Empfehlung neigen zu ungeplanten Router-Neustarts als Folge von System-Überlastung.<br>
+               Router ohne Empfehlung haben wenig Speicher, und neigen daher zu ungeplanten Neustarts als Folge von System-Überlastung.<br>
                Router ohne Empfehlung sind in der Regel langsamer als Router mit Empfehlung.<br>
                Mit einem Router ohne Empfehlung wirst Du keine dauerhafte Freude an deinen Freifunkaktivitäten haben. Und das wäre schade.
               </font></b></p>
           <div class="manualSelection initiallyhidden">
-            <span>Router-Auswahl:</span><br>
-            <select id="ratingselect">
-               <option value="good">Router mit Freifunk-Empfehlung</option>
-               <option value="lowmemory" selected="selected">Router ohne Freifunk-Empfehlung</option> 
-            </select>
-            <select id="vendorselect" autofocus ></select>
-            <select id="modelselect"></select>
-            <select id="revisionselect"></select>
+            <b>
+              <select id="ratingselect">
+                 <option value="good">Router mit Freifunk-Empfehlung</option>
+                 <option value="lowmemory" selected="selected">Router ohne Freifunk-Empfehlung</option> 
+              </select>
+              <select id="vendorselect" autofocus ></select>
+              <select id="modelselect"></select>
+              <select id="revisionselect"></select>
+            </b>
           </div>
           <br>
           <input type="text" class="modelSearch"
@@ -56,7 +57,7 @@
       </div>
       <div class="pane-wrapper">
         <div id="type-pane" class="pane initiallyhidden">
-          <h1>Schritt 2: Auswahl der Installationsart</h1>
+          <h1>Auswahl der Installationsart</h1>
           <p>
             Je nach dem Ist-Zustand des Routers muß entschieden werden, welche Art des sogenannten "Firmware-Image" auf den Router zu installieren ist.<br>
             <em>'Erstinstallation'</em> ist auszuwählen, wenn der Router neu ist und sich darauf noch keine Freifunk- oder OpenWrt-Firmware befindet.<br>
@@ -67,7 +68,7 @@
       </div>
       <div class="pane-wrapper">
         <div id="branch-pane" class="pane initiallyhidden">
-          <h1>Schritt 3: Download des Firmware-Images</h1>
+          <h1>Download der Frankfurter Freifunk-Firmware</h1>
           <p>Die Frankfurter Freifunk-Firmware gibt es in verschiedenen Stabilitäts-Varianten:</p>
           <ul>
             <li>

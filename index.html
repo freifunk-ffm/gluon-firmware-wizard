@@ -30,22 +30,23 @@
         </div>
         <div id="model-pane" class="pane">
           <span class="firmwareTableLink">[Tabellarische &Uuml;bersicht aller unterst&uuml;tzten Router]</span>
-          <h1>Schritt 1: Auswahl des Routermodells</h1>
+          <h1>Auswahl des Routermodells</h1>
           <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
              Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
               <p>
                Nicht alle unterstützten Routermodelle können für einen Einsatz im Freifunknetz empfohlen werden.<br>
-               Nur mit einem empfohlenen Router wirst Du nachhaltig Freude an deinen Freifunkaktivitäten haben.
+               Mit einem empfohlenen Router wirst Du nachhaltig Freude an deinen Freifunkaktivitäten haben.
               </p>
           <div class="manualSelection initiallyhidden">
-            <span>Router-Auswahl:</span><br>
-            <select id="ratingselect">
-               <option value="good" selected="selected">Router mit Freifunk-Empfehlung</option>
-               <option value="lowmemory">Router ohne Freifunk-Empfehlung</option> 
-            </select>
-            <select id="vendorselect" autofocus ></select>
-            <select id="modelselect"></select>
-            <select id="revisionselect"></select>
+            <b>
+              <select id="ratingselect">
+                 <option value="good" selected="selected">Router mit Freifunk-Empfehlung</option>
+                 <option value="lowmemory">Router ohne Freifunk-Empfehlung</option> 
+              </select>
+              <select id="vendorselect" autofocus ></select>
+              <select id="modelselect"></select>
+              <select id="revisionselect"></select>
+            </b>
           </div>
           <br>
           <input type="text" class="modelSearch"
@@ -55,7 +56,7 @@
       </div>
       <div class="pane-wrapper">
         <div id="type-pane" class="pane initiallyhidden">
-          <h1>Schritt 2: Auswahl der Installationsart</h1>
+          <h1>Auswahl der Installationsart</h1>
           <p>
             Je nach dem Ist-Zustand des Routers muß entschieden werden, welche Art des sogenannten "Firmware-Image" auf den Router zu installieren ist.<br>
             <em>'Erstinstallation'</em> ist auszuwählen, wenn der Router neu ist und sich darauf noch keine Freifunk- oder OpenWrt-Firmware befindet.<br>
@@ -66,7 +67,7 @@
       </div>
       <div class="pane-wrapper">
         <div id="branch-pane" class="pane initiallyhidden">
-          <h1>Schritt 3: Download des Firmware-Images</h1>
+          <h1>Download der Frankfurter Freifunk-Firmware</h1>
           <p>Die Frankfurter Freifunk-Firmware gibt es in verschiedenen Stabilitäts-Varianten:</p>
           <ul>
             <li>

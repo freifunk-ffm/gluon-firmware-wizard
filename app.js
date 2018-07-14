@@ -714,7 +714,7 @@ var firmwarewizard = function() {
 
       select.innerHTML = '';
       select.appendChild(
-        createOption('', '-- Bitte einen Hersteller wählen --')
+        createOption('', '-- Bitte den Hersteller wählen --')
       );
 
       var vendors = Object.keys(images).sort();
@@ -734,7 +734,7 @@ var firmwarewizard = function() {
       select.innerHTML = '';
       select.appendChild(createOption(
         atomic(currentVendor),
-        '-- Bitte ein Modell wählen --',
+        '-- Bitte das Modell wählen --',
         atomic(currentVendor))
       );
 
@@ -761,7 +761,7 @@ var firmwarewizard = function() {
       select.innerHTML = '';
       select.appendChild(createOption(
         atomic(currentVendor) + ' ' + atomic(currentModel),
-        '-- Bitte eine Hardwarerevision wählen --',
+        '-- Bitte die Hardwarerevision wählen --',
         atomic(currentVendor) + ' ' + atomic(currentModel))
       );
 
