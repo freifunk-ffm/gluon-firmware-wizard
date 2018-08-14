@@ -29,20 +29,24 @@
           </p>
         </div>
         <div id="model-pane" class="pane">
-          <span class="firmwareTableLink">[Tabellarische &Uuml;bersicht aller unterst&uuml;tzten Router]</span>
+          <span class="firmwareTableLink"></span>
           <h1>Auswahl des Routermodells</h1>
           <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
              Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
-          <p><b><font color="#dc0067">
-			   Router ohne Empfehlung sind in der Regel deutlich langsamer als Router mit Empfehlung.<br>
-               Router ohne Empfehlung haben wenig Speicher, und neigen daher zu ungeplanten Neustarts als Folge von System-Überlastung.<br>
-               Mit einem Router ohne Empfehlung wirst Du keine dauerhafte Freude an deinen Freifunkaktivitäten haben. Und das wäre schade.</font></b></p>
+          <p>Nicht alle unterstützten Routermodelle können für den Einsatz im Freifunknetz empfohlen werden.<br>
+             Mit einem empfohlenen Router wirst Du nachhaltig Freude an deinen Freifunkaktivitäten haben.</p>
           <b>
             <select id="ratingselect">
                  <option value="good">Router mit Freifunk-Empfehlung</option>
-                 <option value="lowmemory" selected="selected">Router ohne Freifunk-Empfehlung</option> 
-            </select>    
-          </b>    
+                 <option value="lowmemory" selected="selected">Router ohne Freifunk-Empfehlung</option>
+            </select>
+          </b>
+          <p><b><font color="#dc0067">
+               &#149; Router ohne Empfehlung haben wenig Speicher und werden bald nicht mehr mit notwendigen Freifunk-Firmwareupdates versorgt werden können.<br>
+               &#149; Router ohne Empfehlung haben wenig Speicher und neigen daher zu ungeplanten Neustarts als Folge von Systemüberlastung.<br>
+               &#149; Router ohne Empfehlung sind in der Regel deutlich langsamer als Router mit Empfehlung.<br>
+               <br>
+               Mit einem Router ohne Empfehlung wirst Du keine dauerhafte Freude an deinen Freifunkaktivitäten haben. Und das wäre schade.</font></b></p><br>
           <div class="manualSelection initiallyhidden">
             <b>
               <select id="vendorselect" autofocus ></select>
