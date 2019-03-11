@@ -30,10 +30,13 @@ var config = {
     // some demo sources
     'https://dl.ffm.freifunk.net/firmware/stable/factory/': 'Stable',
     'https://dl.ffm.freifunk.net/firmware/stable/sysupgrade/': 'Stable',
+    'https://dl.ffm.freifunk.net/firmware/stable/other/': 'Stable',
     'https://dl.ffm.freifunk.net/firmware/test/factory/': 'Test',
     'https://dl.ffm.freifunk.net/firmware/test/sysupgrade/': 'Test',
+    'https://dl.ffm.freifunk.net/firmware/test/sysupgrade/': 'Test',
     'https://dl.ffm.freifunk.net/firmware/dev/factory/': 'Dev',
-    'https://dl.ffm.freifunk.net/firmware/dev/sysupgrade/': 'Dev'
+    'https://dl.ffm.freifunk.net/firmware/dev/sysupgrade/': 'Dev',
+    'https://dl.ffm.freifunk.net/firmware/dev/other': 'Dev'
   },
   preview_pictures: 'pictures/'
 };
