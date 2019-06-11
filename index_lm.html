@@ -24,7 +24,7 @@
           <p>Erst mit der richtigen Firmware wird ein Router zu einem Teil des
              Frankfurter Freifunk-Netzes. Viele handelsübliche Router können schon heute in unser Netz eingebunden werden.
              Die hier zum Download angebotene Freifunk-Firmware ist bereits so vorkonfiguriert, dass Router sofort eine Verbindung zu benachbarten Freifunk-Knoten aufbauen können (meshen).<br><br>
-             Poweruser finden die Frankfurter Freifunk-Firmware weiterhin hier: <a href="https://dl.ffm.freifunk.net/firmware/" https://dl.ffm.freifunk.net/firmware/" target="_blank">https://dl.ffm.freifunk.net/firmware</a>
+             Poweruser finden die Frankfurter Freifunk-Firmware weiterhin hier: <a href="https://dl.ffm.freifunk.net/firmware/" target="_blank">https://dl.ffm.freifunk.net/firmware</a>
           </p>
           <br clear=all>
          </p>  
@@ -34,19 +34,25 @@
           <h1>Auswahl des Routermodells</h1>
           <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
              Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
-          <p>Nicht alle unterstützten Routermodelle können für den Einsatz im Freifunknetz empfohlen werden.<br>
-             Mit einem empfohlenen Router wirst Du nachhaltig Freude an deinen Freifunkaktivitäten haben.</p>
+          <p>Inzwischen sind nicht mehr alle unterstützten Routermodelle für den Einsatz im Frankfurter Freifunknetz geeignet.<br>
+             Mit einem empfohlenen Router wirst Du jedoch nachhaltig Freude an deinen Freifunkaktivitäten haben.</p>
           <b>
             <select id="ratingselect">
                  <option value="good">Router mit Freifunk-Empfehlung</option>
                  <option value="lowmemory" selected="selected">Router ohne Freifunk-Empfehlung</option>
             </select>
           </b>
-          <p><b><font color="#dc0067">
-               &#149; Router ohne Empfehlung haben zu wenig Flash-Speicher und können daher bald nicht mehr mit notwendigen Firmware-Updates versorgt werden!<br>
-               &#149; Router ohne Empfehlung haben wenig RAM-Speicher und neigen daher gehäuft zu ungeplanten Neustarts als Folge von Systemüberlastung.<br>
+          <p><font color="#DF0101">
+               Um Router ohne Empfehlung sollte jeder Freifunker einen großen Bogen machen, auch wenn sie billig sind!<br>
                <br>
-               Mit einem Router ohne Empfehlung werden auf Dauer Du und deine Freifunknutzer keine Freude an Freifunk haben. Und das wäre für alle Beteiligten schade.</font></b></p><br>
+               &#149; Für diese Router wird es aus technischen <a href="https://ffm.freifunk.net/2018/08/20/aktuelles-zur-hardware/" target="_blank">Gründen</a> absehbar keine notwendigen Firmware-Updates mehr geben!<br>
+               &#149; Diese Router werden absehbar nicht mehr vom Frankfurter Freifunknetz unterstützt!<br>
+               <br>
+               Mit einem solchen Router wirst Du keinen nachhaltigen Spaß an Freifunk haben, und das wäre schade.<br>
+               <br>
+               <b><u>Achtung:</u><br>
+               Die folgend angebotene Routerfirmware ist <u>nur</u> für technisch veraltete, aber bereits verbaute Frankfurter Bestandsrouter vorgesehen.</b><br>
+          </font></p><br>
           <div class="manualSelection initiallyhidden">
             <b>
               <select id="vendorselect" autofocus ></select>
@@ -76,6 +82,10 @@
             (Einige wenige Router benötigen für die Erstinstallation ein sehr spezielles Image. Dieses Image muß über den Bootloader des Herstellers eingespielt werden.
        	    In diesem Falle wird hier dann deutlich ein '<strong>Bootloader-Image</strong>' angeboten.)
           </p>
+          <p><b><font color="#DF0101">
+           <u>Achtung:</u><br>
+           Die folgend angebotene Routerfirmware ist <u>nur</u> für technisch veraltete, aber bereits verbaute Frankfurter Bestandsrouter vorgesehen.<br>
+          </font></b></p>
           <radiogroup id="typeselect" class="radiogroup"></radiogroup>
         </div>
       </div>
@@ -100,6 +110,10 @@
           <p>Die verwendete Variante entscheidet &uuml;ber die
              Stablit&auml;t des Freifunk-Routers und &uuml;ber den potentiell anfallenden
              Wartungsaufwand.</p>
+          <p><b><font color="#DF0101">
+          <u>Achtung:</u><br>
+             Die folgend angebotene Routerfirmware ist <u>nur</u> für technisch veraltete, aber bereits verbaute Frankfurter Bestandsrouter vorgesehen.<br>
+          </font></b></p>
           <p>Für das ausgewählte Routermodell stehen folgende Varianten zum Download bereit:</p>
           <div class="warning-experimental">
             <b>Vorsicht!</b><br> Die Development-Variante wurde <b>nicht</b>
@@ -110,8 +124,6 @@
             <div id="branch-experimental-dl"></div>
           </div>
           <div id="branchselect"></div>
-	  <p><b>Wie die Freifunk-Firmware dann auf den Router übertragen wird, ist hier beschrieben:<br>
-	        "<a href="https://ffm.freifunk.net/mitmachen/" target="_blank">In nur vier Schritten zum eigenen Freifunkrouter</a>"</b></p>
         </div>
       </div>
     </div>
