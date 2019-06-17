@@ -32,27 +32,29 @@
         <div id="model-pane" class="pane">
           <span class="firmwareTableLink"></span>
           <h1>Auswahl des Routermodells</h1>
-          <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Router-Hersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
+          <p>Für die Bestimmung der richtigen Freifunk-Firmware wird der Routerhersteller, das Routermodell und ggf. die Hardwarerevision benötigt.<br>
              Diese Informationen befinden sich meist auf der Rückseite des Routers.</p>
           <p>Inzwischen sind nicht mehr alle unterstützten Routermodelle für den Einsatz im Frankfurter Freifunknetz geeignet.<br>
-             Mit einem zeitgemäßen Router wirst Du nachhaltig Freude an deinen Freifunkaktivitäten haben.</p>
+             Mit einem zeitgemäßen Router wirst Du jedoch nachhaltig Freude an deinen Freifunkaktivitäten haben.</p>
           <b>
             <select id="ratingselect">
                  <option value="good">Zeitgemäße Routermodelle</option>
-                 <option value="lowmemory" selected="selected">Router ohne Freifunk-Empfehlung</option>
+                 <option value="lowmemory" selected="selected">Routermodelle ohne Freifunk-Empfehlung</option>
             </select>
           </b>
           <p><font color="#DF0101">
+       	       <b>Die folgend angebotene Routerfirmware ist <u>nur für</u> technisch veraltete aber <u>bereits verbaute</u> Frankfurter Bestandsrouter vorgesehen.</b><br><br> 
                Um "Router ohne Freifunk-Empfehlung" sollte jeder Freifunker einen großen Bogen machen, auch wenn sie billig sind!<br>
                <br>
-               &#149; Diese Router sind technologisch veraltet und verhalten sich instabil.<br>
+               &#149; Diese Router sind technologisch veraltet und verhalten sich  mit unserer Freifunk-Firmware sehr instabil.<br>
                &#149; Für diese Router wird es aus technischen <a href="https://ffm.freifunk.net/2018/08/20/aktuelles-zur-hardware/" target="_blank">Gründen</a> absehbar keine notwendigen Firmware-Updates mehr geben!<br>
                &#149; Diese Router werden absehbar nicht mehr vom Frankfurter Freifunknetz unterstützt!<br>
                <br>
-               Mit einem solchen Router wirst Du keinen nachhaltigen Spaß an Freifunk haben, und das wäre schade.<br>
+               Mit einem solchen Router wirst Du keinen nachhaltigen Spaß an Freifunk haben.<br>
                <br>
                <b><u>Achtung:</u><br>
-               Die folgend angebotene Routerfirmware ist <u>nur</u> für technisch veraltete, aber bereits verbaute Frankfurter Bestandsrouter vorgesehen.</b><br>
+               Das Backbone-Team bittet mit Nachdruck darum, dass keine weiteren unzeitgemäßen Routermodelle mehr installiert werden.</br>
+               Danke für die Unterstützung.</br></b>
           </font></p><br>
           <div class="manualSelection initiallyhidden">
             <b>
@@ -83,16 +85,15 @@
             (Einige wenige Router benötigen für die Erstinstallation ein sehr spezielles Image. Dieses Image muß über den Bootloader des Herstellers eingespielt werden.
        	    In diesem Falle wird hier dann deutlich ein '<strong>Bootloader-Image</strong>' angeboten.)
           </p>
-          <p><b><font color="#DF0101">
-           <u>Achtung:</u><br>
-           Die folgend angebotene Routerfirmware ist <u>nur</u> für technisch veraltete, aber bereits verbaute Frankfurter Bestandsrouter vorgesehen.<br>
-          </font></b></p>
           <radiogroup id="typeselect" class="radiogroup"></radiogroup>
         </div>
       </div>
       <div class="pane-wrapper">
         <div id="branch-pane" class="pane initiallyhidden">
           <h1>Download der Frankfurter Freifunk-Firmware</h1>
+          <p><b><font color="#DF0101">
+             Die folgend angebotene Routerfirmware ist <u>nur für</u> technisch veraltete aber <u>bereits verbaute</u> Frankfurter Bestandsrouter vorgesehen.<br>
+          </font></b></p>
           <p>Von der Frankfurter Freifunk-Firmware gibt es verschiedene Varianten:</p>
           <ul>
             <li>
@@ -111,10 +112,6 @@
           <p>Die verwendete Variante entscheidet &uuml;ber die
              Stablit&auml;t des Freifunk-Routers und &uuml;ber den potentiell anfallenden
              Wartungsaufwand.</p>
-          <p><b><font color="#DF0101">
-          <u>Achtung:</u><br>
-             Die folgend angebotene Routerfirmware ist <u>nur</u> für technisch veraltete, aber bereits verbaute Frankfurter Bestandsrouter vorgesehen.<br>
-          </font></b></p>
           <p>Für das ausgewählte Routermodell stehen folgende Varianten zum Download bereit:</p>
           <div class="warning-experimental">
             <b>Vorsicht!</b><br> Die Development-Variante wurde <b>nicht</b>
@@ -124,6 +121,12 @@
             Diese Variante sollte daher nur von Firmware-Entwicklern verwendet werden!
             <div id="branch-experimental-dl"></div>
           </div>
+          <div id="branchselect"></div>
+          <p><b><font color="#DF0101">
+          <u>Achtung:</u><br>
+          Das Backbone-Team bittet mit Nachdruck darum, diese Firmware nicht mehr für die Erstinstallation eines unzeitgemäßen Routermodells zu verwenden.</br>
+          Danke für die Unterstützung.
+          </font></b></p>
           <div id="branchselect"></div>
         </div>
       </div>

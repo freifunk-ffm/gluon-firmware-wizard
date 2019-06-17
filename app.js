@@ -715,7 +715,7 @@ var firmwarewizard = function() {
 
       select.innerHTML = '';
       select.appendChild(
-        createOption('', '-- Bitte den Hersteller wählen --')
+        createOption('', '-- Bitte den Routerhersteller auswählen --')
       );
 
       var vendors = Object.keys(images).sort();
