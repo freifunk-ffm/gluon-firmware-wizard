@@ -248,7 +248,7 @@ var devices_4_32 = {
     "TL-WR802N": {"tp-link-tl-wr802n": "v1"},
     "TL-WR810N": {"tp-link-tl-wr810n": "v1"},
     "TL-WR840N": {"tp-link-tl-wr840n": "v2"},
-    "TL-WR841N/ND - Original Hardware": {"tp-link-tl-wr841n-nd-v3": "v3",
+    "TL-WR841N/ND\n Original Hardware": {"tp-link-tl-wr841n-nd-v3": "v3",
                      "tp-link-tl-wr841n-nd-v5": "v5",
                      "tp-link-tl-wr841n-nd-v7": "v7",
                      "tp-link-tl-wr841n-nd-v8": "v8",
@@ -285,10 +285,10 @@ var devices_8_32 = {
   "TP-Link": {
     "TL-WR1043N/ND": {"tp-link-tl-wr1043n-nd-v1": "v1"},
     "TL-WR842N/ND": {"tp-link-tl-wr842n-nd-v1": "v1", "tp-link-tl-wr842n-nd-v2": "v2"},
-    "TL-WR841N/ND - Flash-Modifikation auf 8MB": {"tp-link-tl-wr841n-nd-mod-8m-v8": "v8",
-                                           "tp-link-tl-wr841n-nd-mod-8m-v9": "v9",
-                                           "tp-link-tl-wr841n-nd-mod-8m-v10": "v10",
-                                           "tp-link-tl-wr841n-nd-mod-8m-v11": "v11"},
+    "TL-WR841N/ND\n Flash-Umbau auf 8MB": {"tp-link-tl-wr841n-nd-mod-8m-v8": "v8",
+                                                  "tp-link-tl-wr841n-nd-mod-8m-v9": "v9",
+                                                  "tp-link-tl-wr841n-nd-mod-8m-v10": "v10",
+                                                  "tp-link-tl-wr841n-nd-mod-8m-v11": "v11"},
   },
 
   "Ubiquiti": {
@@ -317,10 +317,10 @@ var devices_16_32 = {
     "VoCore": {"vocore-16M": "16M"},
   },
   "TP-Link": {
-    "TL-WR841N/ND - Flash-Modifikation auf 16MB": {"tp-link-tl-wr841n-nd-mod-16m-v8": "v8",
-                                            "tp-link-tl-wr841n-nd-mod-16m-v9": "v9",
-                                            "tp-link-tl-wr841n-nd-mod-16m-v10": "v10",
-                                            "tp-link-tl-wr841n-nd-mod-16m-v11": "v11"},
+    "TL-WR841N/ND\n Flash-Umbau auf 16MB": {"tp-link-tl-wr841n-nd-mod-16m-v8": "v8",
+                                                   "tp-link-tl-wr841n-nd-mod-16m-v9": "v9",
+                                                   "tp-link-tl-wr841n-nd-mod-16m-v10": "v10",
+                                                   "tp-link-tl-wr841n-nd-mod-16m-v11": "v11"},
   },
 }
 
