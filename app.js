@@ -860,7 +860,7 @@ var firmwarewizard = function() {
 
       for (var i in revisions) {
         var rev = revisions[i];
-        if (rev.branch == 'Test') {
+        if (rev.branch == 'Dev') {
           var button = document.createElement('button');
           button.className = 'btn dl-expermental';
           button.addEventListener('click', toggleExperimentalWarning);
@@ -870,7 +870,7 @@ var firmwarewizard = function() {
           var btn = document.createElement('a');
           btn.href = rev.location;
           btn.className = 'btn';
-          btn.innerText = 'Download für testfreudige Freifunker';
+          btn.innerText = 'Download für Experimentierfreudige';
           $('#branch-experimental-dl').appendChild(btn);
         } else {
           var a = document.createElement('a');
