@@ -139,6 +139,7 @@ var devices_recommended = {
     "Archer C58": {"tp-link-archer-c58": "v1"},
     "Archer C59": {"tp-link-archer-c59": "v1"},
     "Archer C60": {"tp-link-archer-c60": "v1"},
+    "Archer C60": {"tp-link-archer-c60-v1": "v1", "tp-link-archer-c60-v2": "v2"},
     "CPE210": {"tp-link-cpe210": "", "tp-link-cpe210-220": "", "tp-link-cpe220": "--ignore--"},
     "CPE510": {"tp-link-cpe510": "", "tp-link-cpe510-520": "", "tp-link-cpe520": "--ignore--"},
     "WBS210": "tp-link-wbs210",
