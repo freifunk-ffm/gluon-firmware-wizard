@@ -139,6 +139,7 @@ var devices_recommended = {
     "Archer C2600": {"tp-link-archer-c2600": "v1"},
     "Archer C25": {"tp-link-archer-c25": "v1"},
     "Archer C5": {"tp-link-archer-c5": "v1"},
+    "Archer C6": {"tp-link-archer-c6": "v2"},
     "Archer C7": "tp-link-archer-c7",
     "Archer C50": {"tp-link-archer-c50-v3": "v3", "tp-link-archer-c50-v4": "v4"},
     "Archer C58": {"tp-link-archer-c58": "v1"},
