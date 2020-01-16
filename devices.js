@@ -29,6 +29,7 @@ var devices_recommended = {
     "FRITZ!Box 7312": "avm-fritz-box-7312",
     "FRITZ!Box 7320": "avm-fritz-box-7320",
     "FRITZ!Box 7330": "avm-fritz-box-7330",
+    "FRITZ!Box 7330 SL": "avm-fritz-box-7330-sl",
     "FRITZ!Box 7360 SL": "avm-fritz-box-7360-sl",
     "FRITZ!Box 7360": {"avm-fritz-box-7360-v1": "v1", "avm-fritz-box-7360-v2": "v2"},
     "FRITZ!Box 7362 SL": "avm-fritz-box-7362-sl",
@@ -77,7 +78,6 @@ var devices_recommended = {
     "GL-MT300n": {"gl-mt300n": "v1", "gl-mt300n-v2": "v2"},
     "GL-MT750": "gl-mt750",
     "VIXMINI": "gl.inet-vixmini"
-
   },
 
   "LeMaker": {
@@ -117,7 +117,7 @@ var devices_recommended = {
   },
 
   "Nexx": {
-    "WT3020": {"nexx-wt3020-8m": "8M"},
+    "WT3020": {"nexx-wt3020-8m": "--ignore--"},
     "WT3020AD": "nexx-wt3020ad",
     "WT3020F": "nexx-wt3020f",
     "WT3020H": "nexx-wt3020h",
@@ -161,14 +161,15 @@ var devices_recommended = {
 
   "TP-Link": {
     "Archer C2600": {"tp-link-archer-c2600": "v1"},
-    "Archer C25": {"tp-link-archer-c25": "v1"},
+    "Archer C2": {"tp-link-archer-c2": "v1"},
     "Archer C5": {"tp-link-archer-c5": "v1"},
     "Archer C6": {"tp-link-archer-c6": "v2"},
     "Archer C7": "tp-link-archer-c7",
-    "Archer C50": {"tp-link-archer-c50-v3": "v3", "tp-link-archer-c50-v4": "v4"},
+    "Archer C20i": "tp-link-archer-c20i",
+    "Archer C25": {"tp-link-archer-c25": "v1"},
+    "Archer C50": {"tp-link-archer-c50": "v1", "tp-link-archer-c50-v3": "v3", "tp-link-archer-c50-v4": "v4"},
     "Archer C58": {"tp-link-archer-c58": "v1"},
     "Archer C59": {"tp-link-archer-c59": "v1"},
-    "Archer C60": {"tp-link-archer-c60": "v1"},
     "Archer C60": {"tp-link-archer-c60-v1": "v1", "tp-link-archer-c60-v2": "v2"},
     "CPE210": {"tp-link-cpe210": "", "tp-link-cpe210-220": "", "tp-link-cpe220": "--ignore--"},
     "CPE510": {"tp-link-cpe510": "", "tp-link-cpe510-520": "", "tp-link-cpe520": "--ignore--"},
@@ -181,12 +182,13 @@ var devices_recommended = {
     "TL-WDR3600": "tp-link-tl-wdr3600",
     "TL-WDR4300": "tp-link-tl-wdr4300",
     "TL-WDR4900": "tp-link-tl-wdr4900",
-    "TL-WR902AC": {"tp-link-tl-wr902ac-v1": "v1"},
     "TL-WR1043N/ND": {"tp-link-tl-wr1043n-nd-v2": "v2", "tp-link-tl-wr1043n-nd-v3": "v3",
                       "tp-link-tl-wr1043n-nd-v4": "v4", "tp-link-tl-wr1043n-v5": "v5"},
     "TL-WR2543N/ND": {"tp-link-tl-wr2543n-nd": ""},
     "TL-WR841N/ND": {"tp-link-tl-wr841n-v13": "v13"},
     "TL-WR842N/ND": {"tp-link-tl-wr842n-nd-v3": "v3"},
+    "TL-WRAC": {"tp-link-tl-wr902ac-v1": "v1",
+                "tp-link-tl-wr902ac-v3": "v3"},
   },
 
   "Ubiquiti": {
