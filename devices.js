@@ -74,6 +74,7 @@ var devices_recommended = {
   "GL.iNet": {
     "GL-AR150": {"gl-ar150": "", "gl.inet-gl-ar150": ""},
     "GL-AR300M": {"gl-ar300m": "M16 / M16-Ext", "gl.inet-gl-ar300m": "M16 / M16-Ext"},
+    "GL-AR300M Lite": "gl.inet-gl-ar300m-lite",
     "GL-AR750": {"gl-ar750": "", "gl.inet-gl-ar750": ""},
     "6408a": "gl-inet-6408a",
     "6416a": "gl-inet-6416a",
@@ -108,6 +109,7 @@ var devices_recommended = {
   },
 
   "Netgear": {
+    "DGN3500": "netgear-dgn3500b",
     "EX6100": {"netgear-ex6100v2": "v2"},
     "EX6150": {"netgear-ex6150": "v1", "netgear-ex6150v2": "v2"},
     "R6120": "netgear-r6120",
@@ -182,6 +184,7 @@ var devices_recommended = {
     "WBS510": "tp-link-wbs510",
     "RE355": "tp-link-re355",
     "RE450": "tp-link-re450",
+    "TD-W9980": "tp-link-td-w9980",
     "TL-MR3020": {"tp-link-tl-mr3020-v3": "v3"},
     "TL-MR3420": {"tp-link-tl-mr3420-v5": "v5"},
     "TL-WA801N/ND": {"tp-link-tl-wa801nd-v5": "v5"},
