@@ -88,7 +88,7 @@ var firmwarewizard = function() {
 
   // constants
   var IGNORED_ELEMENTS = [
-    './', '../', 'experimental.manifest', 'beta.manifest', 'stable.manifest',
+    './', '../', 'experimental.manifest', 'rc.manifest', 'stable.manifest',
     '-tftp', '-fat', '-loader', '-NA', '-x2-', '-hsv2', '-p1020'
   ];
   var PANE = {'MODEL': 0, 'IMAGETYPE': 1, 'BRANCH': 2};
@@ -881,8 +881,8 @@ var firmwarewizard = function() {
         }).sort(function(a, b) {
           if (a.branch == 'stable') return -1;
           if (b.branch == 'stable') return 1;
-          if (a.branch == 'beta') return -1;
-          if (b.branch == 'beta') return 1;
+          if (a.branch == 'rc') return -1;
+          if (b.branch == 'rc') return 1;
           return 0;
         });
 
@@ -896,7 +896,7 @@ var firmwarewizard = function() {
 
       for (var i in revisions) {
         var rev = revisions[i];
-        if (rev.branch == 'Dev') {
+        if (rev.branch == 'Experimental') {
           var button = document.createElement('button');
           button.className = 'btn dl-expermental';
           button.addEventListener('click', toggleExperimentalWarning);
@@ -906,7 +906,7 @@ var firmwarewizard = function() {
           var btn = document.createElement('a');
           btn.href = rev.location;
           btn.className = 'btn';
-          btn.innerText = 'Download für Experimentierfreudige';
+          btn.innerText = 'Download für experimentierfreudige';
           $('#branch-experimental-dl').appendChild(btn);
         } else {
           var a = document.createElement('a');
