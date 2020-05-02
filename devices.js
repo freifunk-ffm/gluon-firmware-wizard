@@ -404,7 +404,7 @@ var devices_info = {
     "FRITZ!Box 4020": "https://fritzfla.sh",
     "FRITZ!Box 4040": "https://fritzfla.sh",
     "FRITZ!Box 7312": "https://fritzfla.sh",
-    "FRITZ!Box 7412": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=20f48c8ae334f8502e756282995cc84d89fa81c1",
+    "FRITZ!Box 7412": "https://wiki.freifunk-dresden.de/index.php/Router_einrichten_AVM",
     "FRITZ!Box 7360": "https://fritzfla.sh",
     "FRITZ!Box 7360 SL": "https://fritzfla.sh",
     "FRITZ!Repeater 1200": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=7f187229a8e9b7966248b1e024217e07a9fc3e50",
