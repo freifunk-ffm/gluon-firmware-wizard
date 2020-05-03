@@ -909,7 +909,7 @@ var firmwarewizard = function() {
 
       for (var i in revisions) {
         var rev = revisions[i];
-        if (rev.branch == 'Experimental') {
+        if (rev.branch == 'Next') {
           var button = document.createElement('button');
           button.className = 'btn dl-expermental';
           button.addEventListener('click', toggleExperimentalWarning);
