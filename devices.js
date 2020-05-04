@@ -393,15 +393,15 @@ var devices_info = {
     "EdgeRouter X-SFP": "https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/README.md"
   },
   "AVM": {
-    "FRITZ!Box 4020": "https://fritzfla.sh",
-    "FRITZ!Box 4040": "https://fritzfla.sh",
-    "FRITZ!Box 7312": "https://fritzfla.sh",
+    "FRITZ!Box 4020": "https://fritz-tools.readthedocs.io/de/latest",
+    "FRITZ!Box 4040": "https://fritz-tools.readthedocs.io/de/latest",
+    "FRITZ!Box 7312": "https://fritz-tools.readthedocs.io/de/latest",
     "FRITZ!Box 7412": "https://wiki.freifunk-dresden.de/index.php/Router_einrichten_AVM",
-    "FRITZ!Box 7360": "https://fritzfla.sh",
-    "FRITZ!Box 7360 SL": "https://fritzfla.sh",
+    "FRITZ!Box 7360": "https://fritz-tools.readthedocs.io/de/latest",
+    "FRITZ!Box 7360 SL": "https://fritz-tools.readthedocs.io/de/latest",
     "FRITZ!Repeater 1200": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=7f187229a8e9b7966248b1e024217e07a9fc3e50",
-    "FRITZ!WLAN Repeater 300E": "https://fritzfla.sh",
-    "FRITZ!WLAN Repeater 450E": "https://fritzfla.sh"
+    "FRITZ!WLAN Repeater 300E": "https://fritz-tools.readthedocs.io/de/latest",
+    "FRITZ!WLAN Repeater 450E": "https://fritz-tools.readthedocs.io/de/latest"
   },
   "TP-Link": {
     "TL-WR841N/ND" : {
