@@ -28,12 +28,12 @@ var config = {
   // relative image paths and branch
   directories: {
     // some demo sources
-    'https://dl.ffm.freifunk.net/firmware/stable/factory/': 'Stable',
-    'https://dl.ffm.freifunk.net/firmware/stable/sysupgrade/': 'Stable',
-    'https://dl.ffm.freifunk.net/firmware/stable/other/': 'Stable',
-    'https://dl.ffm.freifunk.net/firmware/test/factory/': 'Test',
-    'https://dl.ffm.freifunk.net/firmware/test/sysupgrade/': 'Test',
-    'https://dl.ffm.freifunk.net/firmware/test/other/': 'Test',
+    'https://firmware.ffffm.net/images/stable/factory/': 'Stable',
+    'https://firmware.ffffm.net/images/stable/sysupgrade/': 'Stable',
+    'https://firmware.ffffm.net/images/stable/other/': 'Stable',
+//    'https://dl.ffm.freifunk.net/firmware/test/factory/': 'Test',
+//    'https://dl.ffm.freifunk.net/firmware/test/sysupgrade/': 'Test',
+//    'https://dl.ffm.freifunk.net/firmware/test/other/': 'Test',
     'https://firmware.ffffm.net/images/rc/factory/': 'RC',
     'https://firmware.ffffm.net/images/rc/sysupgrade/': 'RC',
     'https://firmware.ffffm.net/images/rc/other/': 'RC',
