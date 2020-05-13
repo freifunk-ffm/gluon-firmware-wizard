@@ -263,6 +263,12 @@ var devices_recommended = {
   }
 };
 
+var devices_small_kernel_part = {
+  "Linksys": {
+    "EA6350": {"linksys-ea6350v3": "v3"}
+  }
+};
+
 var devices_4_32 = {
 
   "D-Link": {
@@ -378,6 +384,7 @@ var devices_16_32 = {
 
 var vendormodels = {
   "recommended": devices_recommended,
+  "small_kernel_part": devices_small_kernel_part,
   "4_32": devices_4_32,
   "8_32": devices_8_32,
   "16_32": devices_16_32,
