@@ -242,6 +242,7 @@ var devices_recommended = {
   "x86": {
     "generic 32bit": "x86-generic",
     "generic 64bit": "x86-64",
+    "legacy 32bit": "x86-legacy",
     "VirtualBox 32bit": {"x86-virtualbox.vdi": "", "x86-generic.vdi": ""},
     "VirtualBox 64bit": {"x86-64-virtualbox.vdi": "", "x86-64.vdi": ""},
     "VMware 32bit": {"x86-vmware.vmdk": "", "x86-generic.vmdk": ""},
